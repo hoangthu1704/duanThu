@@ -1,0 +1,17 @@
+.sma-l-dropdown button {
+  width: 240px;
+  text-align: left;
+}
+.order-sanpham {
+  /* width: 200px !important; */
+}
+.order-sanpham-item {
+  width: 400px !important;
+  max-width: 400px !important;
+  overflow:auto;
+  white-space: pre-wrap !important;
+
+  max-height: 400px;
+
+  display: inline-block;
+}

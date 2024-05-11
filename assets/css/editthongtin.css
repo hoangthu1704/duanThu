@@ -1,0 +1,132 @@
+.sidebar {
+    padding: 20px;
+    /* Khoảng cách giữa nội dung và viền */
+    width: 196px;
+    /* Độ rộng của khung */
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100px;
+    /* Độ rộng mong muốn của ảnh */
+    height: 100px;
+    /* Độ cao mong muốn của ảnh */
+    border-radius: 50%;
+    /* Làm tròn góc để tạo hình ảnh tròn */
+    margin: 16px auto;
+    /* Để ảnh ở giữa khung */
+    display: block;
+    /* Đảm bảo ảnh được hiển thị là một khối */
+}
+.tieude{
+    display: -webkit-inline-box;
+            width: 70%;
+            margin: 0px;
+            /* color: red; */
+            background: yellow;
+            height: 40px;
+            border: 1px solid;
+            border-radius: 10px;
+}
+
+.sidebar header {
+    margin-bottom: 52px;
+    /* Khoảng cách giữa tiêu đề và danh sách */
+}
+
+.sidebar nav ul {
+    list-style: none;
+    /* Loại bỏ dấu đầu dòng */
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các mục */
+    cursor: pointer;
+}
+
+.nav_editthongtin {
+    width: 200px;
+    background-color: #f4f4f4;
+    float: left;
+    height: 300px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+}
+
+h6 {
+    display: inline-block;
+    width: 50%;
+    /* Đảm bảo rằng hai tiêu đề h6 có cùng chiều rộng */
+    margin: 0;
+    color: red;
+}
+
+/* header {
+    background-color: #FAFF00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 0;
+} */
+
+/* .container {
+    width: 600px;
+    height: 400px;
+    background-color: #f4f4f4;
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* Đặt bán kính bo góc là 10px */
+    /* margin-left: 20px;
+} */ */
+.caichung:hover {
+    border-color: transparent;
+}
+.caichung {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    max-width: 480px;
+    margin: auto;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: larger;
+  }
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: small;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .button-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.bt-all {
+    display: inline-block; /* Hiển thị nút trên cùng một hàng */
+    padding: 10px 20px; /* Điều chỉnh padding nếu cần */
+}

@@ -1,0 +1,16 @@
+.site-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.sm-content {
+  width: 569px;
+  text-align: center;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

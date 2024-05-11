@@ -1,0 +1,451 @@
+:root{
+    /* màu tổng */
+    /* màu chính */
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-1: #E2E2E2;
+    --gray-2: #C3C3C3;
+    --gray-3: #858585;
+    --gray-4: #3D3D3D;
+    --yellow-1: #FDFEDB;
+    --yellow-2: #F7F8B3;
+    --yellow-3: #EEF084;
+    --yellow-4: #EBEF42;
+    --yellow-5: #E5E91D;
+    --yellow-6: #FAFF00;
+    /* màu hỗ trợ */
+    --green-1: #C2FFC8;
+    --green-2: #71FE7F;
+    --green-3: #71FE7F;
+    --green-4: #16A34A;
+    --green-5: #028C35;
+    --red-1: #FFEEEE;
+    --red-2: #FCB2B2;
+    --red-3: #F86767;
+    --red-4: #E93434;
+    --red-5: #C71D1D;
+    --brow-1: #B6A5A5;
+    --brow-2: #AB8B8B;
+    --brow-3: #956F6F;
+    --brow-4: #7C4D4D;
+    --brow-5: #5E3131;
+    --brow-6: #411B1B;
+    /* khung mặc định */
+    --boder-full-gray1: 1px solid #C3C3C3;
+    --boder-full-gray2: 1px solid #858585;
+    --boder-full-gray3: 1px solid #3D3D3D;
+    /* size văn bản */
+    --text-size24: 24px;
+    --text-size20: 20px;
+    --text-size18: 18px;
+    --text-size16: 16px;
+    --text-size14: 14px;
+    /* khoảng cách */
+    --pg-4: 4px;
+    --pg-6: 6px;
+    --pg-8: 8px;
+    --pg-12: 12px;
+    --pg-16: 16px;
+    --pg-20: 20px;
+    --pg-25: 25px;
+    --pg-28: 28px;
+    --pg-32: 32px;
+    --pg-38: 38px;
+    --pg-42: 42px;
+    --pg-48: 48px;
+    --pg-64: 64px;
+    --pg-72: 72px;
+    --pg-80: 80px;
+    --pg-82: 82px;
+    --pg-110: 110px;
+    --pg-150: 150px;
+    --pg-180: 180px;
+    --pg-200: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--text-color-gray3);
+}
+ul, li{
+    list-style: none;
+    padding: 0;
+}
+.mr-main{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.font-recursive{
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+}
+.weight-relugar{
+    font-weight: normal;
+}
+.weight-medium{
+    font-weight: 500;
+}
+.eh1{
+    font-size: 56px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
+}
+p{
+    font-size: var(--text-size18);
+}
+.p1{
+    font-size: var(--text-size24);
+}
+.p2{
+    font-size: var(--text-size20);
+}
+.p4{
+    font-size: var(--text-size16);
+}
+.p5{
+    font-size: var(--text-size14);
+}
+/* style button */
+.bt-none{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: var(--text-size18);
+}
+.bt-all{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    height: 38px;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 24px;
+    font-size: var(--text-size20);
+    color: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.2) 4px 4px 2px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* màu button thêm vào css riêng của trang đó, vì trang này là css tổng nên không được thêm màu vào */
+}
+.bt-boder-green{
+    border: 1px solid var(--green-4);
+    color: var(--green-4);
+    background-color: var(--white);
+}
+.bt-boder-yellow{
+    border: 1px solid var(--yellow-5);
+    color: var(--yellow-5);
+    background-color: var(--white);
+}
+.bt-boder-brow{
+    border: 1px solid var(--brow-5);
+    color: var(--brow-5);
+    background-color: var(--white);
+}
+.bt-boder-red{
+    border: 1px solid var(--red-4);
+    color: var(--red-4);
+    background-color: var(--white);
+}
+.bt-green{
+    background-color: var(--green-4);
+}
+.bt-yellow{
+    background-color: var(--yellow-5);
+}
+.bt-brow{
+    background-color: var(--brow-5);
+}
+.bt-red{
+    background-color: var(--red-4);
+}
+.bt-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 38px;
+}
+.bt-medium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+}
+.bt-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 52px;
+}
+.bt-all:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/* tất cả input nếu chỉ có thẻ input không thì chỉ cho font size, nên hãy thêm class="input-all", 
+ vì css này sẽ thuận tiện hơn cho việc thêm icon */
+input{
+    font-size: var(--text-size18);
+    outline: none;
+    border: none;
+}
+.input-all{
+    outline: none;
+    border-radius: 12px;
+    border: var(--boder-full-gray2);
+    padding: 6px 20px;
+    min-height: 24px;
+    font-size: var(--text-size18);
+    color: var(--gray-4);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+/* thẻ select phải nằm trong một thẻ bắt kỳ có tên class="custom-select"
+vd: 
+    <div class="custom-select"">
+        <select name="okla">
+          <option value="">drop text:</option>
+          <option value="1">option 1</option>
+          <option value="2">option 2</option>
+        </select>
+      </div>
+*/
+/* start select */
+.custom-select {
+    position: relative;
+}
+.custom-select select {
+    display: none;
+}
+.select-selected {
+    background-color: transparent;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    right: var(--pg-16);
+    width: var(--pg-20);
+    height: var(--pg-20);
+    background-image: url("../img/mui_ten_down.png");
+}
+.select-selected.select-arrow-active:after {
+    width: var(--pg-20);
+    height: var(--pg-20);
+    background-image: url("../img/mui_ten_up.png");
+    top: 8px;
+}
+.select-items div{
+    color: var(--brow-6);
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.select-selected {
+    color: var(--brow-6);
+    padding: 6px 16px;
+    min-height: 24px;
+    border: var(--boder-full-gray2);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.select-items {
+    position: absolute;
+    background-color: var(--white);
+    border: var(--boder-full-gray2);
+    border-radius: 12px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: var(--gray-1);
+}
+.frame-all-option{
+    border-radius: 12px;
+    border: var(--boder-full-gray2);
+}
+/* end select */
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1px;
+    border: 2px solid var(--gray-4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="checkbox"]::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    transform: scale(0);
+    background-color: var(--yellow-5);
+    border-radius: 2px;
+}
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+input[type="checkbox"][disabled]{
+    border: 2px solid var(--gray-3) !important;
+    cursor: not-allowed !important;
+}
+input[type="checkbox"][disabled]::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    transform: scale(0);
+    border-radius: 2px;
+}
+input[type="checkbox"][disabled]:checked::before {
+    transform: scale(1);
+    background-color: var(--gray-3);
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1px;
+    border: 2px solid var(--gray-4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="radio"]::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    transform: scale(0);
+    background-color: var(--yellow-5);
+    border-radius: 50%;
+}
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="radio"][disabled]{
+    border: 2px solid var(--gray-3) !important;
+    cursor: not-allowed !important;
+}
+input[type="radio"][disabled]:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    transform: scale(0);
+    border-radius: 50%;
+}
+input[type="radio"][disabled]:checked:before {
+    transform: scale(1);
+    background-color: var(--gray-3) !important;
+}
+
+.toggle{
+    width: 43px !important;
+    height: 20px !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    display: flex !important;
+    align-content: center !important;
+    justify-content: center !important;
+    padding: 1.5px !important;
+    border: 2px solid var(--gray-4) !important;
+    border-radius: 14px !important;
+    cursor: pointer !important;
+}
+.toggle::before {
+    content: "" !important;
+    width: 14px !important;
+    height: 14px !important;
+    transform: translateX(-11px) !important;
+    transition: 0.15s linear !important;
+    background-color: var(--yellow-5) !important;
+    border-radius: 50% !important;
+}
+.toggle:checked::before{
+    transform: translateX(11px) !important;
+}
+.toggle:checked{
+    background-color: var(--yellow-1) !important;
+}
+
+.toggle[disabled]{
+    border: 2px solid var(--gray-3) !important;
+    cursor: not-allowed !important;
+}
+.toggle[disabled]::before {
+    background-color: var(--gray-3) !important;
+}
+.toggle[disabled]:checked{
+    background-color: var(--gray-1) !important;
+}
+
+.grid-col-4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+.grid-col-3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+.grid-col-3-center{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 25px;
+}
+.grid-col-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+}
+.grid-col-2-l{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 25px;
+}
+.grid-col-2-r{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 25px;
+}

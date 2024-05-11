@@ -1,0 +1,117 @@
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.contact-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.contact-icons img {
+  width: 36px; /* Đặt chiều rộng cho hình ảnh */
+  height: 36px; /* Đặt chiều cao cho hình ảnh */
+  margin-bottom: 5px;
+}
+.contact-icons span,
+.contact-icons h6 {
+  display: inline; /* Hiển thị inline để chúng xuất hiện trên cùng một dòng */
+  margin: 0;
+}
+.contact-icons span h6 {
+  display: inline-block; /* Hiển thị inline-block để có thể cấp độ */
+}
+
+.fr_1 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.fr_2 {
+  float: left;
+  width: 50%;
+  padding: 6px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+}
+.input {
+  outline: none;
+  border-radius: 10px;
+  border: var(--boder-full-gray2);
+  padding: 6px 5px;
+  min-height: 24px;
+  font-size: var(--text-size18);
+  color: var(--gray-4);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.input_1 {
+  outline: none;
+  border-radius: 12px;
+  border: var(--boder-full-gray2);
+  padding: 6px 174px;
+  min-height: 24px;
+  font-size: var(--text-size18);
+  color: var(--gray-4);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.input_2 {
+  outline: none;
+  border-radius: 12px;
+  border: var(--boder-full-gray2);
+  padding: 6px 129px;
+  min-height: 24px;
+  font-size: var(--text-size18);
+  color: var(--gray-4);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 139px;
+}
+.image_contai {
+  width: 416px;
+}
+.caichung {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 150px;
+  max-width: 75%;
+  /* flex-direction: row;
+  margin-top: 30px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4% 10% 0% 10%; */
+}
+.image-container {
+  width: 30%;
+  margin-right: 20px;
+}
+.flex-container2 .input {
+  width: calc(65% - 20px);
+}
+.span{
+  color: red;
+}
+.content_main{
+  display: flex;
+  justify-content: center;
+}
+.grid_2cl{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.mrbt_20{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,198 @@
+[07-May-2024 07:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/orggenj2/web1.orggenji.click/model/funtion.php:7
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_header.php(6): out_data()
+#1 /home/orggenj2/web1.orggenji.click/model/m_header.php(12): showdanhmucchinh_header()
+#2 /home/orggenj2/web1.orggenji.click/controller/page.php(4): include_once('/home/orggenj2/...')
+#3 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#4 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/funtion.php on line 7
+[07-May-2024 07:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/orggenj2/web1.orggenji.click/model/funtion.php:7
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_header.php(6): out_data()
+#1 /home/orggenj2/web1.orggenji.click/model/m_header.php(12): showdanhmucchinh_header()
+#2 /home/orggenj2/web1.orggenji.click/controller/page.php(4): include_once('/home/orggenj2/...')
+#3 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#4 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/funtion.php on line 7
+[07-May-2024 14:10:45 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:19:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:24:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:26:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:26:14 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[07-May-2024 14:26:14 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[07-May-2024 14:27:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:35:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:40:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:57:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 14:58:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:03:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:10:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:34:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:34:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[07-May-2024 15:34:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[07-May-2024 15:34:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:36:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:41:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 15:52:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[07-May-2024 21:35:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[08-May-2024 13:59:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[08-May-2024 13:59:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[08-May-2024 19:36:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[08-May-2024 19:36:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[08-May-2024 19:36:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[09-May-2024 07:14:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[09-May-2024 07:16:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[09-May-2024 07:20:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[09-May-2024 08:41:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 07:46:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 07:58:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 07:59:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 07:59:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 09:54:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 09:54:16 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 09:54:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 09:54:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 09:54:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 09:55:00 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 09:55:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 09:55:23 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 09:55:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 09:55:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 09:57:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 09:58:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 09:59:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $client in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 09:59:05 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function createAuthUrl() on null in /home/orggenj2/web1.orggenji.click/view/dangnhap.php:33
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/controller/page.php(25): include_once()
+#1 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#2 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 09:59:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $client in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 09:59:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function createAuthUrl() on null in /home/orggenj2/web1.orggenji.click/view/dangnhap.php:33
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/controller/page.php(25): include_once()
+#1 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#2 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 09:59:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $client in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 09:59:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function createAuthUrl() on null in /home/orggenj2/web1.orggenji.click/view/dangnhap.php:33
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/controller/page.php(25): include_once()
+#1 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#2 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/view/dangnhap.php on line 33
+[11-May-2024 10:02:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 10:03:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/monolog/monolog/src/Monolog/Logger.php on line 681
+[11-May-2024 10:03:50 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 10:03:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 10:03:53 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 10:03:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 12:29:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "access_token" in /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php on line 17
+[11-May-2024 12:29:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php:563
+Stack trace:
+#0 /home/orggenj2/web1.orggenji.click/model/m_logingoogle.php(17): Google\Client->setAccessToken()
+#1 /home/orggenj2/web1.orggenji.click/controller/page.php(23): include_once('/home/orggenj2/...')
+#2 /home/orggenj2/web1.orggenji.click/index.php(8): include_once('/home/orggenj2/...')
+#3 {main}
+  thrown in /home/orggenj2/web1.orggenji.click/model/google_login/vendor/google/apiclient/src/Client.php on line 563
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/model/m_sanpham.php on line 8
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 125
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 143
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 151
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:38:51 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/model/m_sanpham.php on line 8
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 125
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 143
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 151
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:41:13 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:41:17 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 151
+[11-May-2024 06:41:17 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:41:17 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/model/m_sanpham.php on line 8
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 125
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 143
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 151
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:41:35 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/model/m_sanpham.php on line 8
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 125
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 143
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 151
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 174
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $page in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183
+[11-May-2024 06:42:41 UTC] PHP Warning:  Undefined variable $lamtronsotrang in /home/orggenj2/web1.orggenji.click/view/sanpham.php on line 183

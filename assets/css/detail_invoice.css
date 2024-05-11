@@ -1,0 +1,43 @@
+.frame_all{
+    max-width: 636px; 
+    margin-top: 38px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    color: var(--gray-4);
+}
+.frame_bt_src{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 64px; 
+    margin-bottom: 64px;
+}
+.name_prd{
+    text-align: left; 
+    margin-left: 10px;
+}
+.frame_total{
+    display: flex; 
+    justify-content: end; 
+    margin-top: 20px;
+}
+.wth_196{
+    width: 196px;
+}
+.frame_ft{
+    background-color: var(--yellow-1);
+}
+.frame_ava_ft{
+    margin-right: 110px;
+}
+.frame_img_ft{
+    border-radius: 50%; 
+    width: 86px; height: 86px; 
+    border: 1px solid var(--yellow-5);
+}
+.img_logo{
+    /* width: 60px;  */
+    padding: 14px;
+}
+.frame_intro_ft{
+    width: 194px;
+}

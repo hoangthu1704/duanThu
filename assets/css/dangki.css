@@ -1,0 +1,46 @@
+.section-dangki {
+    width: 100%;
+    height: 556px;
+    border-radius: 10px;
+    background: url(../images/bg-dangnhap.png);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.sd-logo {
+    display:flex;
+    align-items:center;
+    margin-bottom: 14px;
+}
+.sd-logo img {
+    margin-right: 32px;
+   
+}
+.sd-mota {
+    margin-bottom: 20px;
+}
+.section-dangki .form-group label {
+    text-align:center;
+    margin-bottom: 8px;
+}
+.section-dangki .form-group input {
+    width: 300px;
+}
+.sd-quenmk {
+    width: 300px;
+    text-align: right;
+    margin: 8px 0 16px 0;
+}
+.section-dangki .btn {
+    width: 300px;
+}
+.section-dangki .btn + .btn {
+    margin-top: 12px;
+}
+.btn-danger{
+    margin-top: 20px;
+}
+.baoloi{
+    color: #e93434;
+}

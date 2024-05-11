@@ -1,0 +1,126 @@
+:root{
+    /* màu tổng */
+    /* màu chính */
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-1: #E2E2E2;
+    --gray-2: #C3C3C3;
+    --gray-3: #858585;
+    --gray-4: #3D3D3D;
+    --yellow-1: #FDFEDB;
+    --yellow-2: #F7F8B3;
+    --yellow-3: #EEF084;
+    --yellow-4: #EBEF42;
+    --yellow-5: #E5E91D;
+    --yellow-6: #FAFF00;
+    /* màu hỗ trợ */
+    --green-1: #C2FFC8;
+    --green-2: #71FE7F;
+    --green-3: #71FE7F;
+    --green-4: #16A34A;
+    --green-5: #028C35;
+    --red-1: #FFEEEE;
+    --red-2: #FCB2B2;
+    --red-3: #F86767;
+    --red-4: #E93434;
+    --red-5: #C71D1D;
+    --brow-1: #B6A5A5;
+    --brow-2: #AB8B8B;
+    --brow-3: #956F6F;
+    --brow-4: #7C4D4D;
+    --brow-5: #5E3131;
+    --brow-6: #411B1B;
+    /* khung mặc định */
+    --boder-full-gray1: 1px solid #C3C3C3;
+    --boder-full-gray2: 1px solid #858585;
+    --boder-full-gray3: 1px solid #3D3D3D;
+    /* size văn bản */
+    --text-size24: 24px;
+    --text-size20: 20px;
+    --text-size18: 18px;
+    --text-size16: 16px;
+    --text-size14: 14px;
+    /* khoảng cách */
+    --pg-4: 4px;
+    --pg-6: 6px;
+    --pg-8: 8px;
+    --pg-12: 12px;
+    --pg-16: 16px;
+    --pg-20: 20px;
+    --pg-25: 25px;
+    --pg-28: 28px;
+    --pg-32: 32px;
+    --pg-38: 38px;
+    --pg-42: 42px;
+    --pg-48: 48px;
+    --pg-64: 64px;
+    --pg-72: 72px;
+    --pg-80: 80px;
+    --pg-82: 82px;
+    --pg-110: 110px;
+    --pg-150: 150px;
+    --pg-180: 180px;
+    --pg-200: 200px;
+}
+.left{
+    float: left;
+    width: 700px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.right{
+    float: right;
+    width: 700px;
+    margin-top: 20px;
+}
+h6{
+    margin-left: 10px;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.total{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image-check{
+    width: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.check h6{
+    width: 150px;
+    margin-left: 30px;
+}
+.ngang{
+    margin-top: 20px;
+}
+.thongtin{
+    padding: 4px 4px 8px 4px;
+}
+.pttt{
+    margin-top: 20px;
+    width: 700px;
+}
+.pttt input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.hanhdong{
+    display: flex;
+    align-items: center;
+}
+.credit{
+    display: flex;
+}
+.credit-text{
+    display: flex
+}
+.clear{
+    clear: both;
+}
+.caichung{
+    width: 1440px;
+}

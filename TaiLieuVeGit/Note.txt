@@ -1,0 +1,24 @@
+Input a = chapter1.txt
+vim a // Để dùng dưới dạng cmd. Nếu không quen dùng hãy mở file lên dùng
+git status // Cho bạn thấy rằng có những tệp chưa được theo dõi sẽ được hiển thị bằng màu đỏ và đây chỉ là thứ chỉ nằm trong thư mục làm việc của bạn. Nhưng nó vẫn chưa nằm trong khu vực dàn dựng.
+git add a // Tệp đc thêm vào dưới dạng tệp mới và nó có màu xanh lục. Vì vậy điều này hiện đang ở trong khu vực tổ chức và nó đã sẵn sàng để cam kết(committed)
+git commit -m "...." // Lệnh là git commit và sẽ sử dụng -m flag để thêm một thông báo cam kết. Vì vậy thông điệp cam kết thực sự rất quan trọng. Đó là thứ giúp bạn theo dõi những thay đổi bạn đã thực hiện tronng mỗi lần cam kết. Vì vậy khi bạn tạo một điểm lưu mới bạn muốn càng rõ ràng càng tốt về những thay đổi nào đã được thực hiện giữa điểm lưu cuối cùng và điểm lưu hiện tại này.
+git log // Có thể xem những cam kết nào bạn đã thực hiện bằng cách sử dụng lệnh git log.
+git add . // Lệnh này dùng để add mọi thứ bên trong thư mục hiện tại này.
+git diff a //
+git checkout // Vì vậy, git checkout và sau đó chúng tôi sẽ chỉ định tên của tệp mà chúng tôi muốn kiểm tra, đó là chương 3.txt. Và nếu bạn chỉ xem ở đây, đó là bản xem trước của phiên bản hiện tại của chương 3. txt, khi tôi nhấn enter trên lệnh này về cơ bản yêu cầu quay lại chương 3 này về phiên bản cuối cùng đã được cam kết trong kho lưu trữ cục bộ của chúng tôi. Vì vậy, nếu tôi nhấn enter, bạn có thể thấy rằng gần như ngay lập tức chương 3 của tôi đã được khôi phục về trạng thái huy hoàng trước đó. Và đây là phiên bản của chương 3 tại điểm kiểm tra cuối cùng mà tôi đã cam kết.
+git branch brancdNameAny // Tạo một nhánh phụ mới
+git merge branchNameAny	// Từ nhánh chính master ta sát nhập nhánh phụ branchNameAny để đưa nhánh phụ về nhánh chính
+git pull origin : Lệnh git pull lấy về thông tin từ remote và cập nhật vào các nhánh của local repo (thực hiện lưu vào Repository tức .git và Workspace).
+git fetch origin : Bạn dùng git fetch khi cần lấy dữ liệu từ remote để lưu trữ, theo dõi các commit người khác đã cập nhật lên server, để có được thông thông tin khác nhau giữa remote và local mà không ảnh hưởng đến luồng công việc bạn đang thực hiện
+// If you want to dive deeper into Git, including learning about Cherry-Picking, Git Rebase and more I recommend completing the challenges here:
+
+
+https://learngitbranching.js.org/ 
+//
+//Fork : Là một thuật ngữ dùng để copy hoàn toàn trên Github nó khác với git clone(Này là copy về local)
+
+
+
+
+	

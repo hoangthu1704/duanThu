@@ -1,0 +1,221 @@
+
+
+.frame_pd_sp{
+    width: 100%;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+    box-shadow: 7px 7px 10px var(--gray-01);
+    border: none !important;
+    overflow: hidden;
+}
+.sanpham{
+    margin: auto;
+    max-width: 1440px;
+}
+.container_sanpham{
+    display: flex;
+    justify-content: center;
+}
+.big_frame{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+.custom_sl_op{
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 190px;
+    font-size: 20px;
+    margin-right: 5px;
+    outline: none;
+}
+/* .frame_left{
+    width: 337px;
+    max-width: 337px;
+    margin-right: 38px;
+} */
+.frame_right{
+    /* width: 920px; */
+    max-width: 920px;
+}
+.frame_checkbox{
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid var(--gray-03);
+    /* width: 337px; */
+    box-shadow: 7px 7px 10px var(--gray-01);
+}
+.frame_checkbox + .frame_checkbox{
+    margin-top: 48px;
+}
+.title{
+    margin-bottom: 12px;
+}
+.checkbox-content{
+    color: var(--black-01);
+}
+.checkbox-group{
+    margin-bottom: 28px;
+}
+.padding-12px-1px{
+    padding: 12px 1px;
+    margin-top: 12px;
+}
+.toolbar_filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 51px; */
+    border-radius: 10px;
+    border: 1px solid var(--gray-03);
+    margin-bottom: 12px;
+    padding: 12px;
+    box-shadow: 7px 7px 10px var(--gray-01);
+}
+.bt_lc{
+    font-size: 18px;
+    padding: 0 20px;
+    margin-left:2px;
+    background: var(--white);
+    border: 1px solid var(--black-03);
+    border-radius: 5px;
+}
+.icon_filter{
+    display: flex;
+    /* align-items: center;
+    width: 300px; */
+}
+.flexx{
+    display: flex;
+}
+.flexx_al{
+    display: flex;
+    align-items: center;
+}
+/* .drop_down{
+    text-align: center;
+} */
+/* .card-product{
+    width: 210px;
+    margin-top: 12px;
+    border-radius: 10px !important;
+    box-shadow: 7px 7px 10px var(--gray-01);
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+} */
+.frame_pd_sp img{
+    transition: all 0.3s ;
+}
+.frame_pd_sp:hover img{
+    transform: scale(1.2);
+}
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+}
+.buynow_addcart {
+    display: flex;
+    justify-content: center;
+}
+
+.addcart:hover {
+    box-shadow: inset 8px 8px 12px var(--yellow-01), inset -8px -8px 12px var(--black-03);
+}
+
+.buynow_addcart .addcart button {
+    border: 1px solid var(--yellow-5);
+    color: var(--yellow-5);
+    background-color: var(--white);
+}
+.sapxep{
+    display: flex;
+    margin-right: 20px;
+}
+.card-product + .card-product {
+    margin-left: 0 !important;
+}
+.frame_nx_tab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sophantrang{
+    color: var(--green-01);
+    font-size: 20px;
+}
+
+.bt_cs{
+    outline: none;
+    border: none;
+    background-color: #411B1B;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* select */
+.cs_tsl {
+    position: relative;
+}
+.cs_tsl select {
+    display: none;
+}
+.select-selected {
+    background-color: transparent;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/mui_ten_down.png");
+}
+.select-selected.select-arrow-active:after {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/mui_ten_up.png");
+    top: 8px;
+}
+.select-items div{
+    color: #411B1B;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.select-selected {
+    color: #411B1B;
+    padding: 6px 16px;
+    min-height: 24px;
+    border: 1px solid #858585;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.select-items {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #858585;
+    border-radius: 12px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: #E2E2E2;
+}
+.frame-all-option{
+    border-radius: 12px;
+    border: 1px solid #858585;
+}

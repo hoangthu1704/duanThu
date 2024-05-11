@@ -1,0 +1,80 @@
+.sma-r-bot {
+  padding: 24px 33px;
+}
+.sma-r-bot form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sma-rb-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 16px !important;
+  margin-top: 16px;
+}
+.sma-rb-item textarea {
+  padding: 16px;
+  width: 100%;
+}
+.sma-rb-item input {
+  border-radius: 8px;
+  border: 1px solid var(--gray-03);
+  height: 38px;
+  padding-left: 10px;
+}
+
+.form-group-img {
+  position: relative;
+  width: 100%;
+}
+.form-group-img label,
+.form-group-img input {
+  width: 100%;
+  height: 200px;
+  border: 1px dotted var(--gray-03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group-img input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+.form-group-img label i {
+  margin-bottom: 8px;
+  color: var(--yellow-02);
+}
+.sma-rb-item label {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.sma-r-end {
+  margin-top: 16px;
+}
+.form-group {
+  width: 344px;
+}
+.form-group + .form-group {
+  margin: 0;
+  margin-left: 20px;
+}
+.select-input-button {
+  max-height: 52px;
+  height: 52px;
+}
+.select-input {
+  width: 100%;
+  min-width: 250px;
+}
+.btn-lg {
+  width: 300px;
+}
+.sma-r-end button + button {
+  margin-left: 24px;
+}

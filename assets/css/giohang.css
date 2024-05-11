@@ -1,0 +1,219 @@
+:root{
+    /* màu tổng */
+    /* màu chính */
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-1: #E2E2E2;
+    --gray-2: #C3C3C3;
+    --gray-3: #858585;
+    --gray-4: #3D3D3D;
+    --yellow-1: #FDFEDB;
+    --yellow-2: #F7F8B3;
+    --yellow-3: #EEF084;
+    --yellow-4: #EBEF42;
+    --yellow-5: #E5E91D;
+    --yellow-6: #FAFF00;
+    /* màu hỗ trợ */
+    --green-1: #C2FFC8;
+    --green-2: #71FE7F;
+    --green-3: #71FE7F;
+    --green-4: #16A34A;
+    --green-5: #028C35;
+    --red-1: #FFEEEE;
+    --red-2: #FCB2B2;
+    --red-3: #F86767;
+    --red-4: #E93434;
+    --red-5: #C71D1D;
+    --brow-1: #B6A5A5;
+    --brow-2: #AB8B8B;
+    --brow-3: #956F6F;
+    --brow-4: #7C4D4D;
+    --brow-5: #5E3131;
+    --brow-6: #411B1B;
+    /* khung mặc định */
+    --boder-full-gray1: 1px solid #C3C3C3;
+    --boder-full-gray2: 1px solid #858585;
+    --boder-full-gray3: 1px solid #3D3D3D;
+    /* size văn bản */
+    --text-size24: 24px;
+    --text-size20: 20px;
+    --text-size18: 18px;
+    --text-size16: 16px;
+    --text-size14: 14px;
+    /* khoảng cách */
+    --pg-4: 4px;
+    --pg-6: 6px;
+    --pg-8: 8px;
+    --pg-12: 12px;
+    --pg-16: 16px;
+    --pg-20: 20px;
+    --pg-25: 25px;
+    --pg-28: 28px;
+    --pg-32: 32px;
+    --pg-38: 38px;
+    --pg-42: 42px;
+    --pg-48: 48px;
+    --pg-64: 64px;
+    --pg-72: 72px;
+    --pg-80: 80px;
+    --pg-82: 82px;
+    --pg-110: 110px;
+    --pg-150: 150px;
+    --pg-180: 180px;
+    --pg-200: 200px;
+}
+.left{
+    float: left;
+    width: 950px;
+    margin-left: 40px;
+}
+.right{
+    float: right;
+    width: 400px;
+}
+h6{
+    margin-left: 42px;
+}
+.image-product{
+    margin-left:50px;
+}
+
+.soluong{
+    display: flex;
+    border-radius:5px;
+    border: 1px solid;
+    height: 35px;
+    align-items: center;
+    width: fit-content;
+}
+.cart-product{
+border-radius: 10px;
+border: 1px solid;
+/* margin-left: 80px;
+margin-right: 40px; */
+}
+.img-cart{
+    width: 150px;
+}
+.tong{
+    display: flex;
+}
+.total{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sale{
+    display: flex;
+    margin-bottom: 3%;
+}
+i{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.card-product {
+    width: 212px;
+    border-radius: 8px;
+    border: 1px solid var(--black-03);
+    z-index: 1;
+  
+    display: inline-block;
+    position: relative;
+}
+.card-product-another {
+
+    width: 306px;
+    border-radius: 30px;
+    border: none;
+    z-index: 1;
+  
+    display: inline-block;
+    background: var(--gray-02);
+}
+.card-product-header {
+    padding: 16px 16px 0px 16px;
+    text-align: center;
+  }
+  .card-product-body {
+    padding: 16px;
+    text-align: center;
+  }
+  .card-product-text {
+    margin-bottom: 16px;
+  }
+  .card-product-description {
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .card-product-another img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-1);
+  
+    position: absolute;
+    top: 0;
+    right: 53px;
+    transform: translateY(-100px);
+    background: var(--gray-1);
+  }
+  .card-product-another .card-product-header {
+    margin-top: 153px;
+  }
+  .card-product-another {
+    margin-left: 35px;
+    width: 306px;
+    border-radius: 30px;
+    border: none;
+    z-index: 1;
+  
+    display: inline-block;
+    background: var(--gray-2);
+  }
+  .product{
+    width: 1440px;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .goiy{
+    padding: 20px 20px 20px 20px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+  }
+  .caichung{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 50px;
+    max-width: 1400px;
+  }
+  .clear{
+    clear:both;
+  }
+  .khung_thong_tin_gio_hang{
+    border: var(--boder-full-gray3);
+    border-radius: 5px 5px 5px 5px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    margin-top: 4px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  table, td, th {
+    border-bottom: 2px solid #B5B4B4;
+    text-align: center;
+    padding: 20px 0;
+}
+.cr_p{
+  cursor: pointer;
+}
+.name_sp_goiy_gh{
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

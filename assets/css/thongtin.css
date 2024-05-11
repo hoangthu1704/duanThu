@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+}
+h6 {
+    display: inline-block;
+    width: 50%; /* Đảm bảo rằng hai tiêu đề h6 có cùng chiều rộng */
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* padding: 0px 20px 20px 20px ; */
+    border-radius: 10px;
+    margin-top: -35px;
+}
+/* header {
+    background-color: #FAFF00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 10px;
+} */
+.hede{
+    background-color: #FAFF00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 10px;
+}
+.nav_editthongtin {
+    width: 200px;
+    background-color: #f4f4f4;
+    float: left;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+} */
+.sidebar {
+    padding: 20px; /* Khoảng cách giữa nội dung và viền */
+    width: 196px; /* Độ rộng của khung */
+}
+
+.sidebar header {
+    margin-bottom: 52px; /* Khoảng cách giữa tiêu đề và danh sách */
+}
+
+.sidebar nav ul {
+    list-style: none; /* Loại bỏ dấu đầu dòng */
+    padding:36px;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Bo góc main */
+}
+
+.info-section {
+    background-color: #f9f9f9; /* Màu nền của section */
+    padding: 20px;
+    border: 1px solid #ddd; /* Đặt viền cho section */
+    border-radius: 8px; /* Bo góc section */
+    flex-basis: calc(50% - 10px); /* Đặt chiều rộng của section, trừ đi khoảng cách giữa các section */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 1000px;
+    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.edit-button {
+ 
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+  /* bring your own prefixes */
+    /* margin-left: 102%; */
+   
+}
+
+.edit-button:hover {
+    background-color: darkred;
+}
+
+.info {
+    display: flex;
+}
+
+.info > div {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.info-sectionFirst{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    background-color: #f9f9f9; /* Màu nền của section */
+    padding: 20px;
+    border: 1px solid #ddd; /* Đặt viền cho section */
+    border-radius: 8px; /* Bo góc section */
+    flex-basis: calc(50% - 10px); /* Đặt chiều rộng của section, trừ đi khoảng cách giữa các section */
+    width: 1000px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto; /* hoặc sử dụng các giá trị khác để chỉ định cột */
+    grid-template-rows: auto; /* hoặc sử dụng các giá trị khác để chỉ định hàng */
+    align-items: center; /* hoặc các giá trị khác như: start, end, stretch */
+    justify-items: center; /* hoặc các giá trị khác như: start, end, center */
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+.big_frame{
+    min-width: 1297px;
+    margin:48px 72px;
+
+}
+
+
+/* ------------------tiêu đề--------------- */
+.frame_title{
+    margin-bottom: 38px;
+}
+.title button {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+    color: var(--black-01);
+    padding: 12px 42px;
+}
+/* -------------------------------------------- */
+
+/* -------------cột bên trái------------- */
+
+.frame_left{
+    padding: 24px;
+    display: flex;
+    width: 196px;
+    height: 363px;
+    justify-content: start;
+    background-color: #FEF8F8;
+    box-shadow: 7px 7px 10px #000000;
+    border-radius: 16px;
+}
+
+.frame_left .content_cate p{
+    margin-bottom: 20px;
+}
+/* ----------------------------------------- */
+.frame_body{
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------cột bên phải------------- */
+.product-info-container {
+/*    max-width: 200px; Độ rộng tối đa */
+/*    overflow: hidden; Ẩn nội dung dư thừa */
+/*    text-overflow: ellipsis; Hiển thị dấu chấm (...) khi nội dung bị ẩn */
+/*    white-space: nowrap; Ngăn chặn các từ bị ngắt khi dài quá */
+    text-align: left; 
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.frame_right{
+    width: 1077px;
+    /* height: 582px; */
+    background-color: #FEF8F8;
+    border-radius: 16px;
+    box-shadow: 7px 7px 10px #000000;
+    padding: 24px;
+}
+.title_dm{
+    display: flex;
+    justify-content: space-between;
+}
+.title_{
+    width: 1029px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.body_imfor{
+    display: flex;
+    width: 1029px;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+tbody tr td{
+    text-align: center;
+    /* width: 100%; */
+}
+td{
+    
+    padding: 20px 0;
+}
+tbody > tr{
+    border-bottom: 1px solid #3D3D3D;
+}
+/* -------------------------------------- */
+
+
+
+/* -----------------------cột trạng thái đơn hàng------------------- */
+
+/* ----------------------------------------------------------------- */
